@@ -1,0 +1,15 @@
+footer {
+    background-color: blue;
+    position:fixed;
+    bottom: 0;
+}
+
+img {
+    width: 3%;
+    margin: 5px;
+}
+
+.footer_img {
+    position: relative;
+    left: 85%
+}

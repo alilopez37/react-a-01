@@ -1,8 +1,8 @@
 
-function Card(props) {
+function Card({name, lastName}) {
     return (
         <div>
-            {props.name} {props.lastName}
+            {name} {lastName}
         </div>
     )
 }
