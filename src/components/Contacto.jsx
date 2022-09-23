@@ -15,6 +15,54 @@ function Contacto() {
       {
         name: "Diego",
         lastName: "Carmona",
+      },
+      {
+        name: "Josue",
+        lastName: "Galdamez",
+      },
+      {
+        name: "José",
+        lastName: "Escobar",
+      },
+      {
+        name: "Diego",
+        lastName: "Carmona",
+      },
+      {
+        name: "Josue",
+        lastName: "Galdamez",
+      },
+      {
+        name: "José",
+        lastName: "Escobar",
+      },
+      {
+        name: "Diego",
+        lastName: "Carmona",
+      },
+      {
+        name: "Josue",
+        lastName: "Galdamez",
+      },
+      {
+        name: "José",
+        lastName: "Escobar",
+      },
+      {
+        name: "Diego",
+        lastName: "Carmona",
+      },
+      {
+        name: "Josue",
+        lastName: "Galdamez",
+      },
+      {
+        name: "José",
+        lastName: "Escobar",
+      },
+      {
+        name: "Diego",
+        lastName: "Carmona",
       }
     ];
   

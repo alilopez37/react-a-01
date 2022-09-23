@@ -1,7 +1,10 @@
 footer {
     background-color: blue;
-    position:fixed;
+    position: absolute;
     bottom: 0;
+
+    height: 40px;
+    color: white;
 }
 
 img {
