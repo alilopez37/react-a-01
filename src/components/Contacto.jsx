@@ -5,65 +5,71 @@ function Contacto() {
  
     const users = [
       {
+        id:1,
         name: "Josue",
         lastName: "Galdamez",
       },
       {
+        id:2,
         name: "José",
         lastName: "Escobar",
       },
       {
+        id:3,
         name: "Diego",
         lastName: "Carmona",
       },
       {
+        id:4,
         name: "Josue",
         lastName: "Galdamez",
       },
       {
+        id:5,
         name: "José",
         lastName: "Escobar",
       },
       {
+        id:6,
         name: "Diego",
         lastName: "Carmona",
       },
       {
+        id:7,
         name: "Josue",
         lastName: "Galdamez",
       },
       {
+        id:8,
         name: "José",
         lastName: "Escobar",
       },
       {
+        id:9,
         name: "Diego",
         lastName: "Carmona",
       },
       {
+        id:10,
         name: "Josue",
         lastName: "Galdamez",
       },
       {
+        id:11,
         name: "José",
         lastName: "Escobar",
       },
       {
+        id:12,
         name: "Diego",
         lastName: "Carmona",
       },
       {
+        id:13,
         name: "Josue",
         lastName: "Galdamez",
       },
-      {
-        name: "José",
-        lastName: "Escobar",
-      },
-      {
-        name: "Diego",
-        lastName: "Carmona",
-      }
+      
     ];
   
     return (
@@ -72,8 +78,9 @@ function Contacto() {
             {users.map((user)=> {
                 return (
                     <Card 
-                        name={user.name}
-                        lastName={user.lastName}
+                      key={user.id}
+                      name={user.name}
+                      lastName={user.lastName}
                     />
                 )
             })}

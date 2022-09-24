@@ -1,0 +1,12 @@
+.container__barra {
+    border: 1px red solid;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: 1px blue solid;
+    width: 30px;
+    height: 30px;
+}

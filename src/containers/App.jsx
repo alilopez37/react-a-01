@@ -1,14 +1,12 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Layout from "./Layout";
 import Contacto from "../components/Contacto";
+import Barra from '../components/Barra';
 
 function App() {
     return (
-        <>
-            <Header/>
-            <Contacto />
-            <Footer />
-        </>
+            <Layout>
+               <Contacto></Contacto>
+            </Layout>
       );
 }
 
